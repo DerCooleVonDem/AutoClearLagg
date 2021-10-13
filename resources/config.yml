@@ -17,6 +17,15 @@ messages:
   time-left: "§cEntities will clear in {SECONDS} seconds"
   entities-cleared: "§cCleared a total of {COUNT} entities"
 
+# Where should the messages appear? <chat, popup, title>
+message-type: "chat"
+
+# A list of these ids can be found under -> https://www.digminecraft.com/lists/sound_list_pe.php
+# "off" to disable this feature [example: "random.click"]
+sound-time-left: "off"
+# "off" to disable this feature [example: "random.pop2"]
+sound-cleared: "off"
+
 # Countdown times
 times: [60, 30, 15, 10, 5, 4, 3, 2, 1]
 ...
